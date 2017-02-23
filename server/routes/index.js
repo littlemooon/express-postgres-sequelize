@@ -21,7 +21,7 @@ export default router => {
   })
 
   router.get('*', (req, res, next) => {
-    if (!res.headersSent) res.status(200).send('Welcome to the beginning of nothingness')
+    if (!res.headersSent) res.status(200).send('Server catch all route')
     next()
   })
 

@@ -2,7 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import Sequelize from 'sequelize'
 
-const config = require('../config/config').development
+const config = require('../config/sequelize-config').development
 
 const basename = path.basename(module.filename)
 const db = {}

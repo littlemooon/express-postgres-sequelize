@@ -1,10 +1,11 @@
 {
-  "extends": "standard",
+  "extends": ["standard", "standard-react"],
   "parser": "babel-eslint",
   "rules": {
     "comma-dangle": 0,
     "no-template-curly-in-string": 0,
     "semi": [1, "never"],
-    "space-before-function-paren": [1, "never"]
+    "space-before-function-paren": [1, "never"],
+    "react/jsx-space-before-closing": [1, "never"]
   }
 }
